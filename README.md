@@ -18,5 +18,5 @@ Similarly after create the Azure Blob Storage it is possible to store the terraf
 - Subnet
 - Network Security Group
 - Subnet Network Security Group Association
-- 
+
 and, again, the terraform.tfstate wasn't created locally as expected, instead it was created inside the data storage container.
