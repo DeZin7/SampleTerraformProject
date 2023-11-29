@@ -9,4 +9,5 @@ After create the S3 Bucket it is possible to use it to store the terraform.tfsta
 - Route Table
 - Route Table Association
 - Security Group
+
 and the terraform.tfstate wasn't created locally as expected, instead it was created inside the S3 Bucket.
