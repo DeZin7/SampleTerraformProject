@@ -11,3 +11,12 @@ After create the S3 Bucket it is possible to use it to store the terraform.tfsta
 - Security Group
 
 and the terraform.tfstate wasn't created locally as expected, instead it was created inside the S3 Bucket.
+
+Similarly after create the Azure Blob Storage it is possible to store the terraform state file and for check this it was created an Azure VNET that consists in: 
+- Resource Group
+- VNET
+- Subnet
+- Network Security Group
+- Subnet Network Security Group Association
+- 
+and, again, the terraform.tfstate wasn't created locally as expected, instead it was created inside the data storage container.
