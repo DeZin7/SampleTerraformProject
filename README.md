@@ -20,3 +20,18 @@ Similarly after create the Azure Blob Storage it is possible to store the terraf
 - Subnet Network Security Group Association
 
 and, again, the terraform.tfstate wasn't created locally as expected, instead it was created inside the data storage container.
+
+Then I've created an EC2 instance by creating the following components:
+- Key pair
+- AWS Instance (EC2)
+
+In order to use the aws-vpc previously created, I accessed the structure by using the previously created aws-vpc remote state.
+
+Same was done when creating a VM on Azure, using the previously structure created, by accessing the remote state. In order to create a Azure VM, I also created the following elements:
+- Resource Group
+- Public IP
+- Network Interface
+- Network Interface Security Group Association
+
+and finally the Linux Virtual Machine.
+
